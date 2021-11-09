@@ -1,0 +1,167 @@
+nav {
+    background: #ccc;
+    border-radius: 5px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedorBanner {
+    width: 100%;
+    position: relative;
+    margin-top: -95px;
+}
+.contenedorBanner img {
+    width: 100%;
+}
+
+
+.contenedorBanner .textoBanner {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nave {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* SECCIÓN PROMOCIÓN */
+
+.promo {
+    background:rgb(83, 109, 243);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    height: 250px; 
+}
+
+.producto {
+    color:#fff ;
+    margin-top: 2.375rem;
+    margin-bottom: 2.375rem;
+    width: 300px;
+}
+
+
+
+
+.seccionDos {
+    margin-bottom: 100px
+}
+
+.laCard {
+    min-height: 350px;
+}
+
+.laCard img {
+    max-height: 202px;
+    object-fit: cover; 
+
+    box-shadow: 10px 10px 5px rgba(39, 39, 39, 0.8);
+}
+
+.textoCard {
+    background: rgba(83, 110, 243) linear-gradient(rgba(39, 39, 39, 0.6), rgba(0, 0, 0, 0.4));
+}
+
+/* FORMULARIO */
+
+.contacto {
+    padding: 190px 0;
+    background-image: url(../img/formulario/tablas.gif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.conteFormulario { 
+    min-height: 30.3125rem;
+    border-radius: 0.1875rem;
+
+}
+
+.conteFormulario .formulario {
+    padding: 70px;
+}
+
+.formulario form input[type="text"], .formulario form input[type="email"] {
+    outline: none;
+    width: 100%;
+}
+
+.formulario form textarea {
+    width: 100%;
+    outline: none;
+    max-height: 5.5rem;
+    min-height: 5.5rem;
+}
+
+.formulario form input[type="submit"] {
+    width: 100%;
+    color: #fff; 
+}
+
+.formulario form input[type="submit"]:hover {
+    color: blue;
+    background: #fff;
+}
+
+.conteFormulario .foto {
+    background-image: url(../img/formulario/persona-fondo-amarillo.gif);
+    background-size: cover;
+}
+
+/* SECCIÓN INFORMACIÓN */
+
+
+.laRed {
+    color:#fff;
+}
+.laRed:hover {
+        color: rgba(83, 110, 243);
+}
+
+.nave ul li {
+    list-style: none;
+}
+
+
+/* @media query */
+
+@media screen and (max-width:768px){
+    nav {
+        background: transparent;
+        border-radius: 5px;
+    }
+
+    .laCard {
+        margin-bottom: 50px;
+    }
+     
+}
+
+@media screen and (max-width:1200px) {
+    .laCard {
+        margin-bottom: 50px;
+    }
+     
+}
+
+
+.segundo > li {
+    list-style: none;
+    
+}
+
+.segundo > li a {
+    text-decoration: none;
+}
+
+
